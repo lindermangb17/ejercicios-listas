@@ -10,7 +10,7 @@ buscar=int(input("Número a buscar: "))
 
 for i in range(len(numeros)):
     if numeros[i] == buscar:
-        print(f"El {buscar} esta en la posicion {i}")
+        print(f"El {buscar} esta en la posicion {i+1}")
         break
 else:
     print(f"El {buscar} no esta en la lista")
